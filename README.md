@@ -82,7 +82,7 @@ The application follows a modular multi-agent architecture. Each component has a
                          │       Report        │
                          └──────────────────────┘
 
-**Project Structure** 
+## Project Structure 
 multi-agent-system/
 │
 ├── .env
@@ -93,7 +93,7 @@ multi-agent-system/
 ├── requirements.txt
 ├── tools.py
 └── README.md
-# File Responsibilities
+## File Responsibilities
 app.py ---	Streamlit user interface
 pipeline.py--	Main orchestration and research workflow
 agents.py--	Search Agent, Reader Agent, Writer Chain, and Critic Chain
@@ -102,7 +102,7 @@ requirements.txt--	Python dependencies
 .env--	API keys and environment variables
 .gitignore--	Files excluded from Git
 
-# Technology Stack
+## Technology Stack
 
 Python — Core programming language
 LangChain — Agent and language-model orchestration
