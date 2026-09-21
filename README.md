@@ -81,7 +81,8 @@ The application follows a modular multi-agent architecture. Each component has a
                          │   Final Research    │
                          │       Report        │
                          └──────────────────────┘
-# Project Structure
+
+**Project Structure** 
 multi-agent-system/
 │
 ├── .env
@@ -111,3 +112,4 @@ BeautifulSoup — HTML parsing and text extraction
 Requests — HTTP requests
 Streamlit — User interface
 python-dotenv — Environment-variable management
+
